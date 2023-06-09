@@ -8,17 +8,17 @@ import com.banco.bancadigital.motordecision.entity.Person;
 public interface PersonaService {
 
 	 /**
-     *  recuperar Producto
+     *  recuperar Person
      */
 	Person recuperarPerson(Long id);
     
     /**
-     *  recuperar Producto
+     *  recuperar Person
      */
     List<Person> recuperarPersons();
 
 	/**
-	 * @param producto
+	 * @param person
 	 * @return
 	 */
     Person guardar(Person per);
